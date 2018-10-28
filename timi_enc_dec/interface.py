@@ -72,7 +72,6 @@ class Gui:
                 output += self.decryptor.run(inputs[:end])
                 break
             end += 1
-            print(end)
         self.output_field.insert(END, output)
 
 root = Tk()
